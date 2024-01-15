@@ -1,7 +1,7 @@
 import "./contact.css";
 
 import React from "react";
-import { MdOutlineEmail, MdLocationCity } from "react-icons/md";
+import { MdOutlineEmail , MdPhone} from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -18,11 +18,11 @@ const Contact = () => {
           <article className="contact__option">
             <div className="contact__option-children">
               <MdOutlineEmail className="contact__option-icon" />
-              <MdLocationCity className="contact__option-icon" />
+              <MdPhone className="contact__option-icon" />
             </div>
             <div className="contact__option-children">
-              <h5>topdev39@gmail.com</h5>
-              <h5>Davao, Philippines</h5>
+              <h5>rafay12105@gmail.com</h5>
+              <h5>+92 3318101443</h5>
             </div>
           </article>
         </div>

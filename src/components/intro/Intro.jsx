@@ -3,7 +3,7 @@ import "./intro.css";
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from "../../assets/Me.webp";
+import img from "../../assets/ar.png";
 
 const Intro = () => {
   return (
@@ -13,7 +13,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={img} alt="Rasif Taghizade" />
+            <img src={img} alt="Abdul Rafay" />
           </div>
         </div>
         <div className="about__content">
@@ -21,12 +21,12 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>5+ year</small>
+              <small>2+ year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>32+ Completed Projects</small>
+              <small>12+ Completed Projects</small>
             </article>
           </div>
           <p>
@@ -34,9 +34,7 @@ const Intro = () => {
             <br />
             My goal is to deliver efficient and effective solutions, and I adhere to the following principles in my work:
             <br />
-            - I focus on providing solutions that address the client's needs and solve their problems.
-            <br />
-            - I believe in keeping my clients engaged throughout the development process, ensuring them.
+            I focus on providing solutions that address the client's needs and solve their problems.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

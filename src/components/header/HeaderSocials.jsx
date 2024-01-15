@@ -6,14 +6,14 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/christian-montero-3007222a4"
+        href="https://www.linkedin.com/in/abdul-rafay-2a33b1247/"
         target="_blank"
         rel="noreferrer"
       >
         <BsLinkedin />
       </a>
       <a
-        href="https://github.com/PolarisStar2000"
+        href="https://github.com/abdulrafay720"
         target="_blank"
         rel="noreferrer"
       >
